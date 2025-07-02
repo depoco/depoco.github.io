@@ -1,7 +1,0 @@
-Create a cutting-edge, minimalistic start page for a modern website. The design should feature a full-screen, subtle animated background (like soft gradients or abstract shapes) with a bold, futuristic logo centered at the top. Below the logo, place a concise, powerful tagline in clean sans-serif typography, conveying innovation and simplicity.
-
-Add a prominent, sleek call-to-action button with a smooth hover effect, inviting users to “Explore Now” or “Get Started.” The color palette should be cool tones—blues, purples, or teals—with high contrast and subtle shadows for depth.
-
-Include a simple, intuitive navigation bar at the top right with minimal items: Home, Features, About, Contact. The entire layout should be fully responsive and optimized for both desktop and mobile.
-
-The vibe should feel modern, tech-savvy, and welcoming — as if inviting users to step into the future.
