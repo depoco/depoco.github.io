@@ -11,8 +11,8 @@
 	<link rel="shortcut icon" href="/images/icons/favicon.ico">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
-
-  <link rel="stylesheet" crossorigin href="/assets/index-Ds56baRk.css">
+  <script type="module" crossorigin src="/assets/index-B60mcqzT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BgQNqw9I.css">
 </head>
 <body class="bg-white text-gray-900">
     <!-- Navigation -->
@@ -66,10 +66,12 @@
                     <a href="/linkpeelr/" class="text-gray-900 hover:text-gray-600 transition-colors font-medium">[Check a Link] Learn More &rarr;</a>
                 </div>
                 <div class="border-b border-gray-100 pb-16">
-                    <h3 class="text-xl font-medium mb-2">URL Blocker</h3>
+                    <h3 class="text-xl font-medium mb-2">Snub</h3>
                     <p class="text-gray-600 mb-4">Add Friction. Break the Habit.</p>
                     <p class="text-gray-800 mb-6">
-                        Block sites like Facebook or Reddit with just a keyword - no https or .com needed.
+                        Block sites like Facebook or X with just a keyword - no “https” or “.com” needed.
+                        <br>
+                        Set a lock timer to prevent unblocking - even when willpower fades.
                     </p>
                     <a href="/urlblocker/" class="text-gray-900 hover:text-gray-600 transition-colors font-medium">[Block It] Learn More &rarr;</a>
                 </div>
@@ -102,6 +104,48 @@
                     work seamlessly and serve their purpose without unnecessary complexity.
                 </p>
             </div>
+
+            <!-- Meet the Team Section -->
+            <div class="mt-20">
+                <h3 class="text-xl font-light mb-12 text-center">
+                    Meet the Team
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <!-- Team Member 1 -->
+                    <div class="text-center max-w-xs mx-auto md:max-w-none">
+                        <img 
+                            src="https://placehold.co/200x265/E2E8F0/4A5568" 
+                            alt="Portrait of Team Member 1" 
+                            class="w-full h-auto object-center mb-5"
+                            onerror="this.onerror=null;this.src='/images/employees/emp-1.jpg';"
+                        >
+                        <h4 class="font-medium text-lg">Viktor de Pomian Sandell</h4>
+                        <p class="text-gray-600">Founder & CTO</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="text-center max-w-xs mx-auto md:max-w-none">
+                        <img 
+                            src="/images/employees/brian.png" 
+                            alt="Portrait of Team Member 2" 
+                            class="w-full h-auto object-center mb-5"
+                            onerror="this.onerror=null;this.src='/images/employees/emp-1.png';"
+                        >
+                        <h4 class="font-medium text-lg">Brian Maddox</h4>
+                        <p class="text-gray-600">Founder & CEO</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="text-center max-w-xs mx-auto md:max-w-none">
+                        <img 
+                            src="/images/employees/sarah.png" 
+                            alt="Portrait of Team Member 3" 
+                            class="w-full h-auto object-center mb-5"
+                            onerror="this.onerror=null;this.src='/images/employees/emp-3.jpg';"
+                        >
+                        <h4 class="font-medium text-lg">Sarah Ellison</h4>
+                        <p class="text-gray-600">CFO</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -112,42 +156,50 @@
                 Get in Touch
             </h2>
             
-            <form class="space-y-6">
+            <form 
+                action="https://formspree.io/f/xdkzrqor" 
+                method="POST" 
+                class="space-y-6"
+                >
                 <div>
                     <input 
-                        type="text" 
-                        placeholder="Name" 
-                        class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors"
+                    type="text" 
+                    name="name"
+                    placeholder="Name" 
+                    class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors"
                     >
                 </div>
                 <div>
                     <input 
-                        type="email" 
-                        placeholder="Email" 
-                        class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors"
+                    type="email" 
+                    name="email"
+                    placeholder="Email" 
+                    class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors"
                     >
                 </div>
                 <div>
                     <textarea 
-                        placeholder="Message" 
-                        rows="4" 
-                        class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors resize-none"
+                    name="message"
+                    placeholder="Message" 
+                    rows="4" 
+                    class="w-full border-b border-gray-300 pb-3 bg-transparent focus:outline-none focus:border-gray-900 transition-colors resize-none"
                     ></textarea>
                 </div>
                 <div class="pt-6">
                     <button 
-                        type="submit" 
-                        class="w-full bg-gray-900 text-white py-3 hover:bg-gray-800 transition-colors cursor-pointer"
+                    type="submit" 
+                    class="w-full bg-gray-900 text-white py-3 hover:bg-gray-800 transition-colors cursor-pointer"
                     >
-                        Send Message
+                    Send Message
                     </button>
                 </div>
             </form>
+
             
             <div class="mt-12 pt-8 border-t border-gray-200 text-center">
-                <a href="mailto:info@depoco.com" class="text-gray-600 hover:text-gray-900 transition-colors">
+                <p class="text-gray-600">
                     depoco.online@gmail.com
-                </a>
+                </p>
             </div>
         </div>
     </section>
@@ -162,16 +214,6 @@
         </div>
     </footer>
 
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
+    
 </body>
 </html>
